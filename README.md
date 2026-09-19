@@ -1,36 +1,16 @@
-# Biodata-using-React-JS
-Aplikasi biodata sederhana dengan React dan Tailwind CSS: tambah, validasi, dan hapus data.
-Aplikasi biodata sederhana untuk latihan React. Pengguna bisa menambah data
-(nama, email, telepon), melihatnya dalam bentuk kartu, dan menghapusnya.
+# React + Vite
 
-## Fitur
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-- Tambah biodata lewat form (tombol atau Enter)
-- Validasi input: semua kolom wajib diisi, email harus memuat `@`
-- Daftar biodata dengan avatar inisial berwarna
-- Hapus data per kartu
-- Tampilan responsif (form dan daftar ditumpuk di layar kecil)
+Currently, two official plugins are available:
 
-## Teknologi
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- React (`useState`, props, list rendering)
-- Tailwind CSS
-- Vite
+## React Compiler
 
-## Cara menjalankan
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-```bash
-git clone https://github.com/USERNAME/NAMA-REPO.git
-cd NAMA-REPO
-npm install
-npm run dev
-```
+## Expanding the Oxlint configuration
 
-Buka `http://localhost:5173`.
-
-## Yang dipelajari
-
-- State management dengan `useState`
-- Mengirim props antar komponen
-- Menampilkan list dengan `map()` dan `key`
-- Form handling dan validasi sederhana
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
